@@ -11,6 +11,7 @@ public class Main {
         {
             try {
                 String eq = bufferedReader.readLine();
+                inputStreamReader.close();
                 System.out.println(getAnswer(eq));
             } catch (IOException e) {
                 e.printStackTrace();
